@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#d50000; color:white;">
+    <nav class="navbar navbar-expand-lg navbar-dark"
+        style="background-color:#d50000; color:white; padding-top: 10px; padding-bottom: 10px;">
         <div class="container-fluid" style="margin-left: 15px;">
             <a class="navbar-brand" aria-current="page" href="#">Mooi Team</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,10 +26,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Produk & Fitur</a>
+                        <a class="nav-link active" href="#fitur">Produk & Fitur</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link active" href="#about">About</a>
                     </li>
                 </ul>
             </div>
@@ -36,13 +37,13 @@
     </nav>
     <div>
         <div class="row" style="margin-right: 0;">
-            <div class="col-6" style="height: 560px;">
+            <div class="col-6" style="height: 650px;">
                 <div class="display-3" style="margin-top: 150px; margin-left:50px; font-family: 'Roboto', sans-serif;">
                     Temukan berbagai warung terdekat disekitarmu
                 </div>
             </div>
         </div>
-        <div class="row" style="
+        <div id="about" class="row" style="
         margin-right: 0;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -61,25 +62,32 @@
                 </h4>
             </div>
         </div>
-        <div class="row" style="margin-right: 0; height: 400px;">
+        <div id="fitur" class="row" style="margin-right: 0; height: 400px; padding-right: 50px; padding-left: 50px;">
             <h2 class="text-center" style="font-family: 'Roboto', sans-serif; margin-top: 20px;">
                 <b>Pencarian yang mudah dan nyaman</b>
             </h2>
-            <div class="col-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur vel, fuga laborum aut
-                    molestiae, dolor, odio rem numquam quibusdam at? Tempora sit ex soluta fugit eaque, voluptates
-                    veniam optio.</p>
+
+            <div class="col-4 text-center">
+                <img class="img img-responsive" src="https://img.icons8.com/material/96/000000/map-marker--v1.png" />
+                <p class="display-6">Tempat Sekitarmu</p>
+                <p>Temukan warung disekitarmu, mooi team akan membantu mencari warung yang sehat disekitarmu</p>
             </div>
-            <div class="col-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse quibusdam ipsum blanditiis non,
-                    in ducimus consectetur ratione animi tempore maiores sint fugit, qui incidunt tempora, sequi magnam
+            <div class="col-4 text-center">
+                <img class="img img-responsive" src="https://img.icons8.com/material/96/000000/android--v1.png"/>
+                <p class="display-6">Dalam Genggaman</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse quibusdam ipsum blanditiis
+                    non,
+                    in ducimus consectetur ratione animi tempore maiores sint fugit, qui incidunt tempora, sequi
+                    magnam
                     assumenda nemo?</p>
             </div>
-            <div class="col-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquid odit ea consequuntur,
-                    atque officiis. Deserunt fugit ratione repellendus ipsam, optio, nulla laudantium eum, inventore
-                    harum molestiae voluptatum excepturi accusantium!</p>
+            <div class="col-4 text-center">
+                <img class="img img-responsive" src="https://img.icons8.com/material/96/000000/rice-bowl--v1.png" />
+                <p class="display-6">Makanan higienis</p>
+                <p>Mooi Team Menjamin makanan higienis, sehat dan berkualitas dengan mengikuti standar kualitas dari
+                    BPOM</p>
             </div>
+
         </div>
     </div>
     <footer class="footer" style="background-color: #d50000; color: white;">
@@ -89,6 +97,9 @@
                     <h2><b>Mooi Team</b></h2>
                     <small style="color: white;">Semoga Apa Yang Kita Upayakan Menjadi Indah</small>
                 </div>
+            </div>
+            <div class="text-center" style="padding-bottom: 10px;">
+                &copy; 2021 Mooi Team
             </div>
         </div>
     </footer>
